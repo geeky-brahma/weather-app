@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Information</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/styles.css') }}">
+</head>
+<body>
+    <div class="clouds"></div>
+    <div class="text1">
+        <p>Weather for {{ city }} looks like this: </p>
+        <p>Latitude: {{ lat }}</p>
+        <p>Longitude: {{ long }}</p>
+        <p>Temperature: {{ temp }} ℃</p>
+        <p>Feels Like: {{ flike }} ℃</p>
+        <p>Description: {{ desc }}</p>
+        <!-- <p>Alerts: {{ alert }}</p> -->
+    </div>
+    
+</body>
+</html>

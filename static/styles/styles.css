@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #1a1d3a, #353b5e, #694a7e, #8d5d9a, #b46fa9);
+    color: #303505;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+}
+
+.text {
+    backdrop-filter: blur(20px);
+    border-radius: 10%;
+    padding: 10px;
+    
+}
+.text1 {
+    backdrop-filter: blur(5px);
+    border-radius: 10%;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.7);  /* Semi-transparent white background */
+    color: #2f062b;  /* White text color */
+}
+.clouds {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://i.postimg.cc/MG37Z3HS/pngtree-floating-realistic-clouds-png-image-6195497-1.png') repeat-x;
+    animation: moveClouds 30s linear infinite;
+    z-index: -1;
+}
+
+@keyframes moveClouds {
+    0% { background-position: 0 0; }
+    100% { background-position: 100% 0; }
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #8a08a3;
+    border: none;
+    color: #fff;
+    border-radius: 30%;
+}
+
+button:hover {
+    background-color: #540464;
+}
+
+#weather-container {
+    margin-top: 20px;
+}
