@@ -2,12 +2,22 @@
 
 This is a simple web application built with Flask that allows users to check the weather for a specific city. The app uses the Visual Crossing Weather API to retrieve weather information.
 
+## Try it Online
+
+You can access the live version of the app hosted on [https://weather-app-brahma.koyeb.app/](https://weather-app-brahma.koyeb.app/).
+
+## Screenshots
+
+![Home Page](screenshots/home.png)
+
+![Weather Result](screenshots/result.png)
+
 ## Setup and Installation
 
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/geeky-brahma/weather-app.git
+   git clone https://github.com/yourusername/weather-app.git
    ```
 
 2. Navigate to the project directory:
